@@ -4,7 +4,7 @@ To install dependencies and run the project, please use the following commands:
 2. `npm run start:dev`
    For the task, MongoDB is configured with my Atlas account. If you encounter any connection errors, please let me know, or feel free to use your own database.
 
-api end point's
+api end point's as curl formate
 
 1. curl --location 'http://localhost:3000/auth/register' \
    --header 'Content-Type: application/json' \
