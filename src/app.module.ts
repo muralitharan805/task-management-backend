@@ -7,9 +7,10 @@ import { UserModule } from './user/user.module';
 import { AuthModule } from './auth/auth.module';
 import { AuthGuard } from './auth/AuthGuard';
 import { ResponseInterceptor } from './response/response.interceptor';
+import { TaskModule } from './task/task.module';
 
 @Module({
-  imports: [DatabaseModule, UserModule, AuthModule],
+  imports: [DatabaseModule, UserModule, AuthModule, TaskModule],
   controllers: [AppController],
   providers: [
     {
